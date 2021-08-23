@@ -4,15 +4,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
- // } Driver Code Ends
+// } Driver Code Ends
 // User function Template for C++
 
-class Solution{
+class Solution {
 public:
-    int mthHalf(int N, int M){
-        for (int i = 0; i < M-1; ++i)
+    int mthHalf(int N, int M) {
+        for (int i = 0; i < M - 1; ++i)
         {
-            N=N/2;
+            N = N / 2;
         }
         return N;
     }
@@ -20,15 +20,15 @@ public:
 
 // { Driver Code Starts.
 
-int main(){
+int main() {
     int t;
-    cin>>t;
-    while(t--){
+    cin >> t;
+    while (t--) {
         int N, M;
-        cin>>N>>M;
-        
+        cin >> N >> M;
+
         Solution ob;
-        cout<<ob.mthHalf(N, M)<<"\n";
+        cout << ob.mthHalf(N, M) << "\n";
     }
     return 0;
-} 
+}
