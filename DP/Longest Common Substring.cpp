@@ -41,5 +41,3 @@ int main()
         cout << ob.longestCommonSubstr (s1, s2, n, m) << endl;
     }
 }
-// Contributed By: Pranay Bansal
-// } Driver Code Ends
